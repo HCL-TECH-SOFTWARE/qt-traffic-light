@@ -3,7 +3,7 @@
 ### System toolchain requirement
 To test this scenario following setup is done.
 1.	Qt 6.7 is installed on Windows machine with MinGW toolchain.
-2.	RTist 11.3 product release is installed on Windows with Eclipse IDE 2022.06.
+2.	[Model RealTime](https://model-realtime.hcldoc.com/help/index.jsp) installed on Eclipse.
 
 ### Software reference
 A sample Qt application has been developed based on the following open-source RTist sample:
@@ -70,15 +70,17 @@ C:\QT\6.7.0\mingw_64\bin>windeployqt.exe
 To run QTTrafficLight.exe from cmd, copy the exe created by QT IDE in separate folder. Let’s assume folder is created in C drive with name Executablefile.
 
 Open the cmd and issue below command.
-
+```
 cd  C:\QT\6.7.0\mingw_64\bin
 
 C:\QT\6.7.0\mingw_64\bin>windeployqt.exe C:\Executablefile\QTTrafficLight.exe
-
+```
 All supported files to run QTTrafficLight.exe from cmd will be created in Executablefile folder.
 
 Now open a new cmd and run below command to run QTTrafficLight.exe and start model debugger from eclipse. 
+```
 C:\Executablefile>QTTrafficLight.exe -obslisten=12345
+```
 
 Refer the video present on following link for model debugging.
 
