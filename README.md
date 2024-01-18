@@ -17,11 +17,11 @@ To build the sample you need to have Qt and a C++ toolchain installed. The sampl
     b. If you want to use Code RealTime, open the [Code RealTime workspace folder](https://github.com/secure-dev-ops/code-realtime/tree/main/art-samples/QtTrafficLight). Set the TC `app.tcjs` as active so that code gets generated for it.
 2. **Set-up the Qt project**
    
-   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight.pro) in a text editor. Set the `TARGET_RTS_LOCATION` variable to the location of the TargetRTS to use (located inside the Model RealTime or Code RealTime installations). Also set the `TARGET_FOLDER` variable to the location where generated code from Model RealTime or Code RealTime was placed.
+   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight/QTTrafficLight.pro) in a text editor. Set the `TARGET_RTS_LOCATION` variable to the location of the TargetRTS to use (located inside the Model RealTime or Code RealTime installations). Also set the `TARGET_FOLDER` variable to the location where generated code from Model RealTime or Code RealTime was placed.
 
 3. **Build the application from Qt Creator**
    
-   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight.pro) in Qt Creator and build it (using a command from the Build menu).	
+   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight/QTTrafficLight.pro) in Qt Creator and build it (using a command from the Build menu).	
 
 ### How the application works
 We choose to let the main thread run the Qt UI. In `main.cpp` the QApplication is created with a main window. The main thread will then simply run the application’s event loop which handles all Qt UI events.
