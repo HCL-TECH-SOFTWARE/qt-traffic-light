@@ -3,7 +3,7 @@
 let tc = TCF.define(TCF.CPP_TRANSFORM);
 //tc.pocoLoc = '$(RSA_RT_HOME)/tcpserver/poco';
 tc.sources = [
-    'platform:/resource/TrafficLightsDemo/TrafficLightComponent.emx#_rx2SkNXDEei3BJT-OqdJZA'
+    'platform:/resource/TrafficLightsDemo/TrafficLightComponent.emx#_rx2SkNXDEei3BJT-OqdJZA',
 ];
 tc.topCapsule = 'platform:/resource/TrafficLightsDemo/TrafficLightComponent.emx#_4gz4gNXDEei3BJT-OqdJZA';
 tc.createTargetProject = true;
@@ -33,7 +33,7 @@ tc.threads = [
     stackSize: '20000',
     priority: 'DEFAULT_MAIN_PRIORITY',
     logical: [
-        'ServerThread'
+        'ServerThread',
     ]
 },
 {
@@ -42,9 +42,9 @@ tc.threads = [
     stackSize: '20000',
     priority: 'DEFAULT_MAIN_PRIORITY',
     logical: [
-        'PushButtonThread'
+        'PushButtonThread',
     ]
-}
+},
 ];
 tc.prerequisites = [
     
@@ -56,3 +56,4 @@ tc.userLibraries = [
     
 ];
 tc.compilationMakeArguments = '';
+tc.targetLocation = 'C:\\github\\qt-traffic-light\\ws';

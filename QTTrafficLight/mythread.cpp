@@ -12,13 +12,13 @@ MyThread::MyThread(QObject *parent)
 
 void MyThread::run()
 {
-    if(argcnt > 1)// want to use model debugging functionality or pass arg from cmd
+    if(argcnt > 1) // Cmd-line args provided (e.g. to use model debugging). Pass them on to the TargetRTS.
     {
         RTMain::entryPoint( argcnt, argvv );
     }
-    else//running app from QT IDE
+    else // No cmd-line args provided (e.g. running from Qt Creator). Use default args for a non-debug run.
     {
-        char* argv1[2];
+        const char* argv1[2];
         argv1[0] =  argvv[0];
         argv1[1] = {"-URTS_DEBUG=quit"};
         RTMain::entryPoint( ++argcnt, argv1 );
@@ -38,6 +38,16 @@ void MyThread::greenLight()
 void MyThread::yellowLight()
 {
     emit MyThread::Instance().OnYellowLight();
+}
+
+void MyThread::walk()
+{
+    emit MyThread::Instance().OnWalk();
+}
+
+void MyThread::stop()
+{
+    emit MyThread::Instance().OnStop();
 }
 
 void MyThread::pushButtonClicked()

@@ -17,6 +17,8 @@ public:
     static void redLight();
     static void yellowLight();
     static void greenLight();
+    static void walk();
+    static void stop();
     static void pushButtonClicked();
     static void registerPushButton(PushButton_Actor *p);
     virtual ~MyThread(){}
@@ -27,6 +29,8 @@ signals:
     void OnRedLight();
     void OnGreenLight();
     void OnYellowLight();
+    void OnWalk();
+    void OnStop();
 
 private:
     static PushButton_Actor* myPushButton;

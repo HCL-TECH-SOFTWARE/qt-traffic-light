@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QLabel>
 #include "trafficLightLayout.h"
 
 class MainWindow : public QMainWindow
@@ -10,7 +11,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(int argc, char** argv, QWidget *parent = nullptr);
+    MainWindow(int argc, char** argv, std::string& imageDir);
     ~MainWindow();
 
 public slots:
@@ -18,10 +19,14 @@ public slots:
     void TurnOnRedLight();
     void TurnOnYellowLight();
     void TurnOnGreenLight();
+    void TurnOnStop();
+    void TurnOnWalk();
 
 private:
     TrafficLightLayout widget;
     QPushButton *mButton;
+    QLabel* image;
+    std::string imageDir;
 
     void setup();
 };
