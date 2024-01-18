@@ -12,16 +12,16 @@ To build the sample you need to have Qt and a C++ toolchain installed. The sampl
 
 1. **Generate the realtime part of the application**
     
-    a. If you want to use Model RealTime, open the [Model RealTime project](tree/main/TrafficLightsDemo). Right-click on the TC `app_mingw.tcjs` and perform the command `Generate Code`.
+    a. If you want to use Model RealTime, open the [Model RealTime project](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/TrafficLightsDemo). Right-click on the TC `app_mingw.tcjs` and perform the command `Generate Code`.
     
     b. If you want to use Code RealTime, open the [Code RealTime workspace folder](https://github.com/secure-dev-ops/code-realtime/tree/main/art-samples/QtTrafficLight). Set the TC `app.tcjs` as active so that code gets generated for it.
 2. **Set-up the Qt project**
    
-   Open the Qt project [QTTrafficLight.pro](tree/main/QTTrafficLight/QTTrafficLight.pro) in a text editor. Set the `TARGET_RTS_LOCATION` variable to the location of the TargetRTS to use (located inside the Model RealTime or Code RealTime installations). Also set the `TARGET_FOLDER` variable to the location where generated code from Model RealTime or Code RealTime was placed.
+   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight.pro) in a text editor. Set the `TARGET_RTS_LOCATION` variable to the location of the TargetRTS to use (located inside the Model RealTime or Code RealTime installations). Also set the `TARGET_FOLDER` variable to the location where generated code from Model RealTime or Code RealTime was placed.
 
 3. **Build the application from Qt Creator**
    
-   Open the Qt project [QTTrafficLight.pro](tree/main/QTTrafficLight/QTTrafficLight.pro) in Qt Creator and build it (using a command from the Build menu).	
+   Open the Qt project [QTTrafficLight.pro](https://github.com/HCL-TECH-SOFTWARE/qt-traffic-light/tree/main/QTTrafficLight.pro) in Qt Creator and build it (using a command from the Build menu).	
 
 ### How the application works
 We choose to let the main thread run the Qt UI. In `main.cpp` the QApplication is created with a main window. The main thread will then simply run the application’s event loop which handles all Qt UI events.
