@@ -2,7 +2,7 @@
 #define MYTHREAD_H
 
 #include <QThread>
-#include "PushButton.h"
+#include "IPushButton.h"
 
 class MyThread : public QThread
 {
@@ -20,7 +20,7 @@ public:
     static void walk();
     static void stop();
     static void pushButtonClicked();
-    static void registerPushButton(PushButton_Actor *p);
+    static void registerPushButton(IPushButton *p);
     virtual ~MyThread(){}
     static char** argvv;
     int argcnt;
@@ -33,7 +33,7 @@ signals:
     void OnStop();
 
 private:
-    static PushButton_Actor* myPushButton;
+    static IPushButton* myPushButton;
 };
 
 #endif // MYTHREAD_H

@@ -1,14 +1,18 @@
 # Set the location of the TargetRTS
-# Two examples are given for the Model RealTime and Code RealTime products respectively
+# Examples are given for the Model RealTime and Code RealTime products respectively
 
-TARGET_RTS_LOCATION = C:/rtist-installations/model-realtime-12/eclipse-cpp-2023-06-R-win32-x86_64/eclipse/rsa_rt/C++/TargetRTS
-# TARGET_RTS_LOCATION = C:/rtistic/build/vscode-codert-100/data/extensions/secure-dev-ops.code-realtime-ce-1.0.0/TargetRTS
+TARGET_RTS_LOCATION = C:\rtist-installations\mrt-12-0-2-hcl\eclipse-cpp-2023-06-R-win32-x86_64\eclipse/rsa_rt/C++/TargetRTS
+# TARGET_RTS_LOCATION = C:\Users\MATTIAS.MOHLIN\testarea\install\VSCode\data\extensions\secure-dev-ops.code-realtime-ce-1.0.4\TargetRTS
 
 # Set the location of the target folder (where generated code is placed)
 
 TARGET_FOLDER = C:/github/qt-traffic-light/ws/TrafficLightsDemo_target
 # TARGET_FOLDER = C:/git/rtistic-pub-doc/art-samples/QtTrafficLight_target
 
+# Set the location of the source folder (important for Code RealTime, since it uses a handwritten header file IPushButton.h)
+
+# SOURCE_FOLDER = C:\git\rtistic-pub-doc\art-samples\QtTrafficLight\include
+SOURCE_FOLDER = $${TARGET_FOLDER}
 
 QT       += core gui
 
@@ -37,6 +41,7 @@ SOURCES += \
 
 HEADERS += \
     $${TARGET_FOLDER}/QtUi.h \
+	$${SOURCE_FOLDER}/IPushButton.h \
     $${TARGET_FOLDER}/PushButton.h \
     $${TARGET_FOLDER}/TLSystem.h \
     $${TARGET_FOLDER}/TrafficLight.h \
@@ -57,6 +62,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 unix:!macx|win32: LIBS += -L$${TARGET_RTS_LOCATION}/lib/WinT.x64-MinGw-12.2.0 -lObjecTime
 
 INCLUDEPATH += $${TARGET_FOLDER}
+INCLUDEPATH += $${SOURCE_FOLDER}
 
 INCLUDEPATH += $${TARGET_RTS_LOCATION}/include
 DEPENDPATH += $${TARGET_RTS_LOCATION}/include

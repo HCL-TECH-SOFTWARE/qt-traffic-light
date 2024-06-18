@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--DevOps Model RealTime 12.0.0-->
+<!--DevOps Model RealTime 12.0.2-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:rtnotation="http://www.ibm.com/xtools/1.0.0/rtnotation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
@@ -66,7 +66,7 @@
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zNryEdxSEeizO_iNOoSWfw" x="13716" y="5715"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_1xCfoNxSEeizO_iNOoSWfw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;31.30755064456722%&quot;>&lt;/col>&lt;col width=&quot;68.69244935543279%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;img height=&quot;116&quot; src=&quot;https://raw.githubusercontent.com/hcl-pnp-rtist/traffic-light-web/master/webapp/public/images/screenshot.png&quot; width=&quot;93&quot;>&lt;/img>&lt;/p>&lt;/td>&lt;td>&lt;p>A traffic light system consisting of a traffic light, a pedestrian light and a push button. It &lt;span>&lt;span>communicates with a web server for visualizing the state of the traffic light and pedestrian light in a web application. For information about how to build and run this application, see the &lt;a href=&quot;https://github.com/hcl-pnp-rtist/traffic-light-web&quot; rel=&quot;&quot;>GitHub repository&lt;/a>.&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>" transparency="0" lineColor="14263149" lineWidth="1">
+        <children xmi:type="notation:Shape" xmi:id="_1xCfoNxSEeizO_iNOoSWfw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>&lt;/p>&lt;table border=&quot;1&quot;>&lt;col width=&quot;31.30755064456722%&quot;>&lt;/col>&lt;col width=&quot;68.69244935543279%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;img height=&quot;204&quot; src=&quot;platform:/resource/TrafficLightsDemo/traffic-light.jpg&quot; width=&quot;165&quot;>&lt;/img>&lt;/p>&lt;/td>&lt;td>&lt;p>A traffic light system consisting of a traffic light, a pedestrian light and a push button. It &lt;span>&lt;span>communicates with a web server for visualizing the state of the traffic light and pedestrian light in a web application. For information about how to build and run this application, see the &lt;a href=&quot;https://github.com/hcl-pnp-rtist/traffic-light-web&quot; rel=&quot;&quot;>GitHub repository&lt;/a>.&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p>" transparency="0" lineColor="14263149" lineWidth="1">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_1xDtwNxSEeizO_iNOoSWfw" type="DiagramName">
             <element xsi:nil="true"/>
           </children>
@@ -76,7 +76,7 @@
           <styles xmi:type="notation:TextStyle" xmi:id="_1xCfodxSEeizO_iNOoSWfw"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_1xCfotxSEeizO_iNOoSWfw"/>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xCfo9xSEeizO_iNOoSWfw" x="6731" y="254" width="11576" height="4192"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xCfo9xSEeizO_iNOoSWfw" x="6731" y="254" width="11576" height="5123"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_S6Kx8NxTEeizO_iNOoSWfw" element="_FXIDoNXEEei3BJT-OqdJZA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_S6LZANxTEeizO_iNOoSWfw" type="ImageCompartment">
@@ -96,6 +96,19 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_S6MAF9xTEeizO_iNOoSWfw"/>
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Kx8dxTEeizO_iNOoSWfw" x="19558" y="9017"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_TzLpQC1oEe-su6q0pQ0V4A" element="_TzJNAC1oEe-su6q0pQ0V4A" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+          <children xmi:type="notation:DecorationNode" xmi:id="_TzLpQi1oEe-su6q0pQ0V4A" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_TzLpQy1oEe-su6q0pQ0V4A" width="530" height="530"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzLpRC1oEe-su6q0pQ0V4A" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzLpRS1oEe-su6q0pQ0V4A" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzMQUC1oEe-su6q0pQ0V4A" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_TzMQUS1oEe-su6q0pQ0V4A" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_TzMQUi1oEe-su6q0pQ0V4A" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_TzMQUy1oEe-su6q0pQ0V4A" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_TzMQVC1oEe-su6q0pQ0V4A" visible="false" type="SignalCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TzLpQS1oEe-su6q0pQ0V4A" x="20489" y="5757"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rx2Sv9XDEei3BJT-OqdJZA" element="_rx2TDNXDEei3BJT-OqdJZA" source="_rx2Sk9XDEei3BJT-OqdJZA" target="_rx2SqdXDEei3BJT-OqdJZA" fontName="Segoe UI" fontHeight="8" lineColor="0" lineWidth="1" showStereotype="Text">
@@ -156,6 +169,14 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_S6PDZNxTEeizO_iNOoSWfw" y="-318"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6OcVdxTEeizO_iNOoSWfw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_W8SvQC1oEe-su6q0pQ0V4A" element="_W8PE4C1oEe-su6q0pQ0V4A" source="_S6Kx8NxTEeizO_iNOoSWfw" target="_TzLpQC1oEe-su6q0pQ0V4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_W8SvQi1oEe-su6q0pQ0V4A" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_W8SvRC1oEe-su6q0pQ0V4A" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_W8SvRS1oEe-su6q0pQ0V4A" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8SvQy1oEe-su6q0pQ0V4A" y="-149"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W8SvQS1oEe-su6q0pQ0V4A" points="[9, -44, -26, 122]$[28, -133, -7, 33]"/>
         </edges>
       </contents>
     </eAnnotations>
@@ -538,31 +559,31 @@
               <subvertex xmi:type="uml:State" xmi:id="_rx25rdXDEei3BJT-OqdJZA" name="Yellow">
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_YzrK0NXjEei7WZvlxd1NlA" name="Entry">
                   <language>C++</language>
-                  <body>log.log(&quot;Enter Yellow&quot;);&#xD;
-log.commit(); // test&#xD;
+                  <body>log.log(&quot;Enter Yellow&quot;);
+log.commit(); // test
 ui.yellow().send();</body>
                 </entry>
               </subvertex>
               <subvertex xmi:type="uml:State" xmi:id="_rx25rNXDEei3BJT-OqdJZA" name="Green">
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_T32KANXjEei7WZvlxd1NlA" name="Entry">
                   <language>C++</language>
-                  <body>log.log(&quot;Enter Green&quot;);&#xD;
-log.commit();&#xD;
+                  <body>log.log(&quot;Enter Green&quot;);
+log.commit();
 ui.green().send();</body>
                 </entry>
               </subvertex>
               <subvertex xmi:type="uml:State" xmi:id="_rx25q9XDEei3BJT-OqdJZA" name="Red">
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_SL8o4NXjEei7WZvlxd1NlA" name="Entry">
                   <language>C++</language>
-                  <body>log.log(&quot;Enter Red&quot;);&#xD;
-log.commit();&#xD;
+                  <body>log.log(&quot;Enter Red&quot;);
+log.commit();
 ui.red().send();</body>
                 </entry>
               </subvertex>
               <transition xmi:id="_rx25uNXDEei3BJT-OqdJZA" name="yellow_to_red" source="_rx25rdXDEei3BJT-OqdJZA" target="_rx25q9XDEei3BJT-OqdJZA">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_rx25udXDEei3BJT-OqdJZA" name="Effect">
                   <language>C++</language>
-                  <body>log.log(&quot;Yellow -> Red&quot;);&#xD;
+                  <body>log.log(&quot;Yellow -> Red&quot;);
 log.commit();</body>
                 </effect>
                 <trigger xmi:id="_z2iFQNXEEei3BJT-OqdJZA" name="" port="_Vg0rENXEEei3BJT-OqdJZA">
@@ -572,7 +593,7 @@ log.commit();</body>
               <transition xmi:id="_rx25tdXDEei3BJT-OqdJZA" name="green_to_yellow" source="_rx25rNXDEei3BJT-OqdJZA" target="_rx25rdXDEei3BJT-OqdJZA">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_rx25ttXDEei3BJT-OqdJZA" name="Effect">
                   <language>C++</language>
-                  <body>log.log(&quot;Green -> Yellow&quot;);&#xD;
+                  <body>log.log(&quot;Green -> Yellow&quot;);
 log.commit();</body>
                 </effect>
                 <trigger xmi:id="_yNOlINXEEei3BJT-OqdJZA" name="" port="_Vg0rENXEEei3BJT-OqdJZA">
@@ -582,7 +603,7 @@ log.commit();</body>
               <transition xmi:id="_rx25stXDEei3BJT-OqdJZA" name="red_to_green" source="_rx25q9XDEei3BJT-OqdJZA" target="_rx25rNXDEei3BJT-OqdJZA">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_rx25s9XDEei3BJT-OqdJZA" name="Effect">
                   <language>C++</language>
-                  <body>log.log(&quot;Red -> Green&quot;);&#xD;
+                  <body>log.log(&quot;Red -> Green&quot;);
 log.commit();</body>
                 </effect>
                 <trigger xmi:id="_wLkPYNXEEei3BJT-OqdJZA" name="" port="_Vg0rENXEEei3BJT-OqdJZA">
@@ -638,17 +659,17 @@ log.commit();</body>
             <connectionPoint xmi:id="_U8S6UNXHEei3BJT-OqdJZA" kind="exitPoint"/>
             <entry xmi:type="uml:OpaqueBehavior" xmi:id="_H9bd4NXMEei7WZvlxd1NlA" name="Entry">
               <language>C++</language>
-              <body>bool waitForWalk = true;&#xD;
-pedTimer.informIn(RTTimespec(2,0), &amp;waitForWalk, &amp;RTType_bool);&#xD;
+              <body>bool waitForWalk = true;
+pedTimer.informIn(RTTimespec(2,0), &amp;waitForWalk, &amp;RTType_bool);
 </body>
             </entry>
             <region xmi:id="_qXGEcNXGEei3BJT-OqdJZA" name="Region1">
               <subvertex xmi:type="uml:State" xmi:id="_q4_QkNXGEei3BJT-OqdJZA" name="Red">
                 <entry xmi:type="uml:OpaqueBehavior" xmi:id="_DG11gNXkEei7WZvlxd1NlA" name="Entry">
                   <language>C++</language>
-                  <body>log.log(&quot;Enter Red&quot;);&#xD;
-log.commit();&#xD;
-ui.red().send();&#xD;
+                  <body>log.log(&quot;Enter Red&quot;);
+log.commit();
+ui.red().send();
 </body>
                 </entry>
               </subvertex>
@@ -656,15 +677,15 @@ ui.red().send();&#xD;
               <transition xmi:id="_CvasYNaGEei7WZvlxd1NlA" name="updatePedLight" kind="internal" source="_kwOikNXGEei3BJT-OqdJZA" target="_kwOikNXGEei3BJT-OqdJZA">
                 <effect xmi:type="uml:OpaqueBehavior" xmi:id="_HemYUNaGEei7WZvlxd1NlA" name="Effect">
                   <language>C++</language>
-                  <body>if (*((bool*) rtdata) == true) {&#xD;
-    pedLightControl.walk().send();&#xD;
-    bool waitForWalk = false;&#xD;
-    pedTimer.informIn(RTTimespec(4,0), &amp;waitForWalk, &amp;RTType_bool);&#xD;
-    // Time for pedestrians to cross&#xD;
-}&#xD;
-else {&#xD;
-    pedLightControl.stop().send();&#xD;
-    timer.informIn(RTTimespec(2,0));&#xD;
+                  <body>if (*((bool*) rtdata) == true) {
+    pedLightControl.walk().send();
+    bool waitForWalk = false;
+    pedTimer.informIn(RTTimespec(4,0), &amp;waitForWalk, &amp;RTType_bool);
+    // Time for pedestrians to cross
+}
+else {
+    pedLightControl.stop().send();
+    timer.informIn(RTTimespec(2,0));
 }</body>
                 </effect>
                 <trigger xmi:id="_JOTbYNaGEei7WZvlxd1NlA" name="" port="_Thw9UNaIEei7WZvlxd1NlA">
@@ -683,9 +704,9 @@ else {&#xD;
           <transition xmi:id="_t0Qu4NXGEei3BJT-OqdJZA" name="pedRequest" source="_t0CscNXGEei3BJT-OqdJZA" target="_t0KBMNXGEei3BJT-OqdJZA">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_7FD2kNXGEei3BJT-OqdJZA" name="Effect">
               <language>C++</language>
-              <body>log.log(&quot;Pedestrian requests to cross&quot;);&#xD;
-log.commit();&#xD;
-timer.cancelTimer(cycleTimer);&#xD;
+              <body>log.log(&quot;Pedestrian requests to cross&quot;);
+log.commit();
+timer.cancelTimer(cycleTimer);
 </body>
             </effect>
             <trigger xmi:id="_xcFxMNXGEei3BJT-OqdJZA" name="" event="_hgwLUNXFEei3BJT-OqdJZA" port="_rx2TDNXDEei3BJT-OqdJZA"/>
@@ -693,8 +714,8 @@ timer.cancelTimer(cycleTimer);&#xD;
           <transition xmi:id="_U8dSYNXHEei3BJT-OqdJZA" name="pedReady" source="_U8S6UNXHEei3BJT-OqdJZA" target="_U8YZ4NXHEei3BJT-OqdJZA">
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_riww4NXHEei3BJT-OqdJZA" name="Effect">
               <language>C++</language>
-              <body>log.log(&quot;Pedestrians ready&quot;);&#xD;
-log.commit();&#xD;
+              <body>log.log(&quot;Pedestrians ready&quot;);
+log.commit();
 cycleTimer = timer.informEvery(RTTimespec(2,0));</body>
             </effect>
             <trigger xmi:id="_gVAfANXHEei3BJT-OqdJZA" name="" port="_Vg0rENXEEei3BJT-OqdJZA">
@@ -707,8 +728,8 @@ cycleTimer = timer.informEvery(RTTimespec(2,0));</body>
             </eAnnotations>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_16zXwGzqEe66Wc3uhDVPYQ" name="Effect">
               <language>C++</language>
-              <body>log.log(&quot;TrafficLight starts up&quot;);&#xD;
-log.commit();&#xD;
+              <body>log.log(&quot;TrafficLight starts up&quot;);
+log.commit();
 cycleTimer = timer.informEvery(RTTimespec(2,0));</body>
             </effect>
           </transition>
@@ -981,7 +1002,7 @@ cycleTimer = timer.informEvery(RTTimespec(2,0));</body>
         </region>
       </ownedBehavior>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_FXIDoNXEEei3BJT-OqdJZA" name="PushButton">
+    <packagedElement xmi:type="uml:Class" xmi:id="_FXIDoNXEEei3BJT-OqdJZA" name="PushButton" clientDependency="_W8PE4C1oEe-su6q0pQ0V4A">
       <eAnnotations xmi:id="_FXSbsNXEEei3BJT-OqdJZA" source="uml2.diagrams" references="_FXSbsdXEEei3BJT-OqdJZA">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FXSbsdXEEei3BJT-OqdJZA" type="Structure" element="_FXIDoNXEEei3BJT-OqdJZA" measurementUnit="Himetric">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_FXSbstXEEei3BJT-OqdJZA" type="StructureDiagramFrame" element="_FXIDoNXEEei3BJT-OqdJZA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -1069,7 +1090,7 @@ cycleTimer = timer.informEvery(RTTimespec(2,0));</body>
             <connectionPoint xmi:id="_Bdtx8Hl7Ee6vK_J_TYyA4A" visibility="public" kind="entryPoint"/>
             <entry xmi:type="uml:OpaqueBehavior" xmi:id="_OiRZkGznEe66Wc3uhDVPYQ" name="Entry">
               <language>C++</language>
-              <body>//waitForIncomingMessage();&#xD;
+              <body>//waitForIncomingMessage();
 external.enable();</body>
             </entry>
             <region xmi:id="_xfVfAHiQEe6QCtKgKOYr9g" name="Region1"/>
@@ -1095,7 +1116,12 @@ external.enable();</body>
         <language>C++</language>
         <body>external.raise();</body>
       </ownedBehavior>
-      <ownedOperation xmi:id="_01isUHmBEe6vK_J_TYyA4A" name="onClicked" method="_FFoPoHmCEe6vK_J_TYyA4A"/>
+      <interfaceRealization xmi:id="_W8PE4C1oEe-su6q0pQ0V4A" supplier="_TzJNAC1oEe-su6q0pQ0V4A" client="_FXIDoNXEEei3BJT-OqdJZA" contract="_TzJNAC1oEe-su6q0pQ0V4A"/>
+      <ownedOperation xmi:id="_01isUHmBEe6vK_J_TYyA4A" name="onClicked" method="_FFoPoHmCEe6vK_J_TYyA4A">
+        <eAnnotations xmi:id="_cR0CcC1oEe-su6q0pQ0V4A" source="com.hcl.xtools.properties">
+          <details xmi:id="_cR0pgC1oEe-su6q0pQ0V4A" key="cpp/overrideFunction/java.lang.Boolean" value="true"/>
+        </eAnnotations>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_DEipENXcEei7WZvlxd1NlA" name="TrafficLightSignals">
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_DElsYNXcEei7WZvlxd1NlA" name="TrafficLightSignals" clientDependency="_DEp90dXcEei7WZvlxd1NlA _DEqk4NXcEei7WZvlxd1NlA">
@@ -1406,6 +1432,13 @@ external.enable();</body>
         <name xsi:nil="true"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_TzJNAC1oEe-su6q0pQ0V4A" name="IPushButton">
+      <ownedOperation xmi:id="_ZWb2cC1oEe-su6q0pQ0V4A" name="onClicked" method="_ZWb2cS1oEe-su6q0pQ0V4A"/>
+      <nestedClassifier xmi:type="uml:OpaqueBehavior" xmi:id="_ZWb2cS1oEe-su6q0pQ0V4A" name="onClicked" specification="_ZWb2cC1oEe-su6q0pQ0V4A">
+        <language>C++</language>
+        <body>external.raise();</body>
+      </nestedClassifier>
+    </packagedElement>
     <profileApplication xmi:id="_rx25zNXDEei3BJT-OqdJZA">
       <eAnnotations xmi:id="_rx25zdXDEei3BJT-OqdJZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -1465,7 +1498,7 @@ external.enable();</body>
   <UMLRealTime:OutEvent xmi:id="_L5cNMNXcEei7WZvlxd1NlA" base_CallEvent="_L5a_ENXcEei7WZvlxd1NlA"/>
   <UMLRealTime:RTPort xmi:id="_Th0AoNaIEei7WZvlxd1NlA" isWired="false" base_Port="_Thw9UNaIEei7WZvlxd1NlA"/>
   <CppPropertySets:GeneralCapsuleProperties xmi:id="_Mth5ANzhEeizO_iNOoSWfw" base_Class="_FXIDoNXEEei3BJT-OqdJZA">
-    <implementationPreface xmi:id="_bMt4AHmBEe6vK_J_TYyA4A" body="#include &lt;iostream>&#xD;&#xA;#include &quot;mythread.h&quot;"/>
+    <implementationPreface xmi:id="_bMt4AHmBEe6vK_J_TYyA4A" body="#include &lt;iostream>&#xA;#include &quot;mythread.h&quot;"/>
   </CppPropertySets:GeneralCapsuleProperties>
   <UMLRealTime:RTRedefinableElement xmi:id="_jFfhIN6wEeife8wA8rm4kw">
     <base_RedefinableElement xmi:type="uml:StateMachine" href="platform:/resource/LibHttpServer/LibHttpServer.emx#_K_o7cN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine?"/>
@@ -1515,4 +1548,5 @@ external.enable();</body>
   <UMLRealTime:RTPort xmi:id="_ewZbsLR9Ee65xN3udlrgyw" base_Port="_ewXmgLR9Ee65xN3udlrgyw"/>
   <UMLRealTime:RTPort xmi:id="_hrTGkLR9Ee65xN3udlrgyw" isConjugate="true" base_Port="_hrRRYLR9Ee65xN3udlrgyw"/>
   <UMLRealTime:RTConnector xmi:id="_jo5bsLR9Ee65xN3udlrgyw" base_Connector="_jo40oLR9Ee65xN3udlrgyw"/>
+  <CppPropertySets:GeneralOperationProperties xmi:id="_kbYKkC1oEe-su6q0pQ0V4A" base_Operation="_01isUHmBEe6vK_J_TYyA4A" polymorphic="true"/>
 </xmi:XMI>
