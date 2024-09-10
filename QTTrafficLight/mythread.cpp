@@ -1,7 +1,7 @@
 #include "mythread.h"
 #include "RTMain.h"
 
-PushButton_Actor* MyThread::myPushButton = nullptr;
+IPushButton * MyThread::myPushButton = nullptr;
 char** MyThread::argvv = nullptr;
 
 MyThread::MyThread(QObject *parent)
@@ -56,7 +56,7 @@ void MyThread::pushButtonClicked()
         myPushButton->onClicked();
 }
 
-void MyThread::registerPushButton(PushButton_Actor *p)
+void MyThread::registerPushButton(IPushButton *p)
 {
     myPushButton = p;
 }
